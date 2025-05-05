@@ -23,9 +23,7 @@ HTML/CSS/JS	: Arayüz ve istemci tarafı işlemleri için kullanılan temel tekn
 Firebase CDN	: Firebase SDK'larının uygulamaya dahil edilmesi için kullanılan CDN
 
 ## Proje Yapısı
-bash
-Kopyala
-Düzenle
+
 firebase-login-proje/
 ├── index.html        # Ana arayüz dosyası
 ├── style.css         # Görsel stil dosyası
