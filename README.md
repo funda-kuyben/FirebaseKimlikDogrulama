@@ -18,17 +18,17 @@ Bu web uygulaması, Firebase Authentication servisinden faydalanarak kullanıcı
 - Veri Yedekleme ve Erişim Kolaylığı: Firebase'in sunduğu bulut altyapısı sayesinde kullanıcı verileri güvenli bir şekilde saklanır ve her yerden erişilebilir.
 ## Kullanılan Teknolojiler
 
-Firebase Auth :	Kimlik doğrulama servisi (Email/Password)
-HTML/CSS/JS	: Arayüz ve istemci tarafı işlemleri için kullanılan temel teknolojiler
-Firebase CDN	: Firebase SDK'larının uygulamaya dahil edilmesi için kullanılan CDN
+- **Firebase Auth**: Kimlik doğrulama servisi (Email/Password)
+- **HTML/CSS/JavaScript**: Arayüz tasarımı ve istemci tarafı işlemler
+- **Firebase CDN**: Firebase SDK'larının projeye dahil edilmesi
 
 ## Proje Yapısı
 
 firebase-login-proje/
-├── index.html        # Ana arayüz dosyası
-├── style.css         # Görsel stil dosyası
-├── app.js            # Firebase Auth işlemleri
-├── README.md         # Proje açıklamaları ve kullanım bilgileri
+├── index.html # Ana arayüz dosyası
+├── style.css # Görsel stil dosyası
+├── app.js # Firebase Authentication işlemleri (login/register/logout)
+└── README.md # Proje açıklamaları ve kullanım bilgileri
 
 
 ## Kurulum ve Çalıştırma
