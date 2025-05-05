@@ -42,9 +42,8 @@ firebase-login-proje/
 
 4. Aşağıdaki dosyada firebaseConfig bilgilerinizi güncelleyin:
 
-js
-Kopyala
-Düzenle
+
+
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT.firebaseapp.com",
