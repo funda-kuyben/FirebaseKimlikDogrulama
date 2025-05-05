@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firebase Giriş Paneli</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Firebase Giriş Sistemi</h1>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email adresinizi girin" />
+        <input type="password" id="password" placeholder="Şifrenizi girin" />
+      </div>
+
+      <div class="button-group">
+        <button id="signup">Kayıt Ol</button>
+        <button id="login">Giriş Yap</button>
+        <button id="logout" style="display: none">Çıkış Yap</button>
+      </div>
+
+      <p id="message"></p>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
+
+    <!-- Firebase Config -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCSQLbDoiTG3VmwILe6ie9s6rBl4YTAU-M",
+        authDomain: "vtys-auth-proje.firebaseapp.com",
+        projectId: "vtys-auth-proje",
+        storageBucket: "vtys-auth-proje.firebasestorage.app",
+        messagingSenderId: "433821074761",
+        appId: "1:433821074761:web:32182d21c1780f5bd94698",
+        measurementId: "G-WPHZGYFTDG",
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- Uygulama JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
